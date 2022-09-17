@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="Program.MavenDemo.AppTest">
+        <methods>
+          <include name="LoginD"/>
+          <include name="Logout"/>
+          <include name="LoginC"/>
+          <include name="Browser"/>
+          <include name="Website"/>
+          <include name="Close"/>
+        </methods>
+      </class> <!-- Program.MavenDemo.AppTest -->
+      <class name="Program.MavenDemo.TestNG">
+        <methods>
+          <include name="verifyUserProfile"/>
+          <include name="closeDriverInstance"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="basicsetUp"/>
+          <include name="launchApp"/>
+          <include name="cleanUp"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- Program.MavenDemo.TestNG -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

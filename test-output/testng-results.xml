@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-16T13:37:04 IST" name="Default suite" finished-at="2022-09-16T13:37:24 IST" duration-ms="20179">
+    <groups>
+    </groups>
+    <test started-at="2022-09-16T13:37:04 IST" name="Default test" finished-at="2022-09-16T13:37:24 IST" duration-ms="20179">
+      <class name="Program.MavenDemo.SaucedemoTestNG">
+        <test-method is-config="true" signature="Browser()[pri:0, instance:Program.MavenDemo.SaucedemoTestNG@7193666c]" started-at="2022-09-16T13:37:04 IST" name="Browser" finished-at="2022-09-16T13:37:12 IST" duration-ms="8326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser -->
+        <test-method is-config="true" signature="Website()[pri:0, instance:Program.MavenDemo.SaucedemoTestNG@7193666c]" started-at="2022-09-16T13:37:12 IST" name="Website" finished-at="2022-09-16T13:37:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Website -->
+        <test-method signature="Saucedemologin()[pri:1, instance:Program.MavenDemo.SaucedemoTestNG@7193666c]" started-at="2022-09-16T13:37:12 IST" name="Saucedemologin" finished-at="2022-09-16T13:37:15 IST" duration-ms="3098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Saucedemologin -->
+        <test-method is-config="true" signature="Screenshot()[pri:0, instance:Program.MavenDemo.SaucedemoTestNG@7193666c]" started-at="2022-09-16T13:37:15 IST" name="Screenshot" finished-at="2022-09-16T13:37:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+        <test-method is-config="true" signature="Website()[pri:0, instance:Program.MavenDemo.SaucedemoTestNG@7193666c]" started-at="2022-09-16T13:37:15 IST" name="Website" finished-at="2022-09-16T13:37:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Website -->
+        <test-method signature="SaucedemoHome()[pri:2, instance:Program.MavenDemo.SaucedemoTestNG@7193666c]" started-at="2022-09-16T13:37:15 IST" name="SaucedemoHome" finished-at="2022-09-16T13:37:18 IST" depends-on-methods="Program.MavenDemo.SaucedemoTestNG.Saucedemologin" duration-ms="2930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaucedemoHome -->
+        <test-method is-config="true" signature="Screenshot()[pri:0, instance:Program.MavenDemo.SaucedemoTestNG@7193666c]" started-at="2022-09-16T13:37:18 IST" name="Screenshot" finished-at="2022-09-16T13:37:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+        <test-method is-config="true" signature="Website()[pri:0, instance:Program.MavenDemo.SaucedemoTestNG@7193666c]" started-at="2022-09-16T13:37:18 IST" name="Website" finished-at="2022-09-16T13:37:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Website -->
+        <test-method signature="SaucedemoCheckout()[pri:3, instance:Program.MavenDemo.SaucedemoTestNG@7193666c]" started-at="2022-09-16T13:37:18 IST" name="SaucedemoCheckout" finished-at="2022-09-16T13:37:21 IST" depends-on-methods="Program.MavenDemo.SaucedemoTestNG.SaucedemoHome" duration-ms="3359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaucedemoCheckout -->
+        <test-method is-config="true" signature="Screenshot()[pri:0, instance:Program.MavenDemo.SaucedemoTestNG@7193666c]" started-at="2022-09-16T13:37:21 IST" name="Screenshot" finished-at="2022-09-16T13:37:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:Program.MavenDemo.SaucedemoTestNG@7193666c]" started-at="2022-09-16T13:37:21 IST" name="Close" finished-at="2022-09-16T13:37:24 IST" duration-ms="2328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- Program.MavenDemo.SaucedemoTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
